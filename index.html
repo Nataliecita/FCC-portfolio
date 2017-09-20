@@ -4,15 +4,24 @@
 <meta charset="utf-8">
 <title>Natalie Ruiz</title>
 
-
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- font awesome -->
+<script src="https://use.fontawesome.com/bf1d9620f1.js"></script>
+
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
 </head>
 <body>
-  <nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-static-top" role="navigation">
+
+  <nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="container">
         <div class="navbar-header">
@@ -27,31 +36,147 @@
 <!-- Direct links to appropriate page spots -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#" target="_blank">About</a></li>
-                <li><a href="#" target="_blank">Portfolio</a></li>
-                <li><a href="#" target="_blank">Honors</a></li>
-                <li><a href="#" target="_blank">Contact</a></li>
+                <li><a href="#about" >About</a></li>
+                <li><a href="#portfolio" >Portfolio</a></li>
+                <li><a href="#honors" target="_blank">Honors</a></li>
+                <li><a href="#contact" target="_blank">Contact</a></li>
             </ul>
         </div>
     </div>
-</nav>
+  </nav>
 
 <!-- about me section -->
-<div class="container">
-  <div class="page-header">
-    <h3>Hi there, I'm Natalie</h3>
-    <div class="row">
+<div class="container-fluid">
+  <div class="page-header about-me" id="about">
+
+    <h3 class="text-center">Hi there, I'm Natalie</h3>
+    <div class="row about-me">
       <div class="col-md-6">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
       <div class="col-md-6">
-        <img class="img-fluid img-responsive img-circle" src="https://thumb.ibb.co/d4qgok/DSC00351.jpg" border="0">
-
+        <img class="img-fluid img-responsive img-circle centered-block" src="https://thumb.ibb.co/d4qgok/DSC00351.jpg" border="0">
       </div>
     </div>
-
   </div>
 
+  <div class="sample-projects">
+    <h3 class="text-center" id="portfolio">My work</h3>
+
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://i.pinimg.com/736x/08/d9/8d/08d98df014afd571c4d4b33e3a2fc72e--happy-faces-smiley-faces.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+  </div>
+  <hr />
+  <div class="honors" id="honors">
+    <h3 class="text-center">Honors</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+  <hr />
+
+  <div class="contact" id="contact">
+    <a class="btn btn-social-icon btn-linkedin">
+      <span class="fa fa-linkedin"></span>
+    </a>
+    <a class="btn btn-social-icon btn-github">
+      <span class="fa fa-github"></span>
+    </a>
+    <a class="btn btn-social-icon btn-linkedin">
+      <span class="fa fa-linkedin"></span>
+    </a>
+  </div>
 </div>
+<script type="text/javascript">
+
+$(document).ready(function () {
+  $(document).on("scroll", onScroll);
+
+  //smoothscroll
+  $('a[href^="#"]').on('click', function (e) {
+    e.preventDefault();
+    $(document).off("scroll");
+
+    $('a').each(function () {
+      $(this).removeClass('active');
+    })
+    $(this).addClass('active');
+
+    var target = this.hash,
+    menu = target;
+    $target = $(target);
+    $('html, body').stop().animate({
+      'scrollTop': $target.offset().top+2
+    }, 500, 'swing', function () {
+      window.location.hash = target;
+      $(document).on("scroll", onScroll);
+    });
+  });
+});
+
+function onScroll(event){
+  var scrollPos = $(document).scrollTop();
+  $('#menu-center a').each(function () {
+    var currLink = $(this);
+    var refElement = $(currLink.attr("href"));
+    if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+      $('#menu-center ul li a').removeClass("active");
+      currLink.addClass("active");
+    }
+    else{
+      currLink.removeClass("active");
+    }
+  });
+}
+</script>
 </body>
 </html>
